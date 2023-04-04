@@ -1,4 +1,9 @@
 package Model;
+
+import java.util.List;
+
+import javax.annotation.processing.Messager;
+
 /**
  * This is a class that models a Message.
  *
@@ -138,5 +143,20 @@ public class Message {
                 ", message_text='" + message_text + '\'' +
                 ", time_posted_epoch=" + time_posted_epoch +
                 '}';
+    }
+    public static List<Messager> getMessageByAccountId(int posted_by2) {
+        return null;
+    }
+    public static Message updateMessage(int message_id2, Message message) {
+        return null;
+    }
+    public static Message deleteMessage(int message_id2) {
+        return null;
+    }
+    public static Object getAllMessages() {
+        return null;
+    }
+    public static Message addMessages(Message message) {
+        return null;
     }
 }

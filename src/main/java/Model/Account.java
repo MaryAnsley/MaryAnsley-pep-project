@@ -115,4 +115,10 @@ public class Account {
                 ", password='" + password + '\'' +
                 '}';
     }
+    public static Account login(Account account) {
+        return null;
+    }
+    public static Account addNewUser(Account account) {
+        return null;
+    }
 }
